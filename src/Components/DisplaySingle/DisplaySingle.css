@@ -1,0 +1,89 @@
+
+
+.single-image {
+  height: 50vh
+}
+
+.upvote-wrapper:hover{
+  cursor: pointer;
+}
+.upvote-wrapper {
+  position: relative;
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
+
+.upvote-count {
+  position: absolute;
+  bottom: 5px;
+  right: 13px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.upvote-button {
+  position: absolute;
+  z-index: auto;
+  bottom: 10px;
+  right: 30px;
+  border: none;
+  border-radius: 3px;
+  width: 40px;
+  height: 50px;
+  background: grey;
+  opacity: .5;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.upvote-button-no-auth {
+  position: absolute;
+  z-index: auto;
+  bottom: 10px;
+  right: 30px;
+  border: none;
+  border-radius: 3px;
+  width: 40px;
+  height: 30px;
+  background: grey;
+  opacity: .5;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.timestamp-display{
+  text-align: left;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 1025px){
+  .DisplaySingle {
+    width: 50%;
+    margin: auto;
+  }
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+

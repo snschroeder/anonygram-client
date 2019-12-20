@@ -1,0 +1,12 @@
+.RefreshButton {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.RefreshButton:hover {
+  cursor: pointer;
+}

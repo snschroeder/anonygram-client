@@ -1,0 +1,52 @@
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-container {
+    border: 1px solid black;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 200px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.Register__button {
+    background-color:  #80c683;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding:14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+.Register__button:hover{
+    opacity: 0.8;
+}
+
+
+/* Uses calc to center object horizontally 
+once it stops growing */
+@media screen and (min-width: 730px){
+    .register-page{
+        margin: 10vh calc((100vw - 550px)/2);
+        max-width: 550px;
+        height: 60vh;
+    }
+}

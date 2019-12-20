@@ -1,0 +1,25 @@
+.Comment {
+  margin: .4em 1.0em;
+  padding: .5em;
+  background: #87818129;
+  border-radius: 8px;
+}
+
+.Comment > * {
+  text-align: left;
+}
+
+.Comment__span.username {
+  padding: .25em 5px 0 0;
+  color: black;
+}
+
+.Comment__p {
+  word-wrap: break-word;  
+}
+
+.Comment__div.timestamp {
+  text-align: left;
+  color: darkgray;
+  font-size:  .9em
+}

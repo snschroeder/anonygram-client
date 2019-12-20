@@ -1,0 +1,159 @@
+.SubmissionForm {
+  /* Default mobile styles for fixed button display */
+  position: fixed;
+  z-index: 9999999;
+  bottom: 3em;
+  right: 1em;
+}
+
+.SubmissionForm.hasImage {
+  background: whitesmoke;
+  width: 90vw;
+  height: 75vh;
+  padding: 1em;
+  left: 50%; top: 50%;
+  margin-left: -45vw; margin-top: -37.5vh;
+  bottom: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) -6px 6px 6px -6px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
+}
+
+.SubmissionForm__button.close {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: inherit;
+}
+
+.SubmissionForm__img {
+  height: 45vh;
+  width: 100%;
+  margin: 10px auto auto;
+  object-fit: contain;
+}
+
+.SubmissionForm__label {
+  display: block;
+  margin: .9em .25em .25em;
+}
+
+.SubmissionForm__input {
+  max-width: 318px;
+  height: 2.5em;
+  display: block;
+  margin: auto;
+}
+
+.SubmissionForm__overlay {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .5;
+  background: grey;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.SubmissionForm__button.green {
+  background-color: #80c683;
+  box-shadow: rgba(0, 0, 0, 0.15) -6px 6px 6px -6px, rgba(0, 0, 0, 0.1) 0px 0px 1px -1px;
+  width: 100%;
+  padding: 1em;
+  border-radius: 30px;
+}
+
+.SubmissionForm__button.hasImage {
+  padding: auto;
+  border-radius: 10px;
+  width: inherit;
+  margin: 1em .75em 0;
+  box-shadow: none;
+}
+
+.SubmissionForm__button:hover {
+  cursor: pointer;
+}
+
+.SubmissionForm__drag--active {
+  margin-left: 1em;
+  padding: .4em 1.75em;
+  border: 4px dashed rgb(93, 194, 93);
+  border-radius: 10px;
+  background-color: rgb(150, 196, 150);
+  opacity: 50;
+  color: white;
+  font-size: 14px;
+}
+
+.SubmissionForm__drag {
+  display: none;
+}
+
+.laptop {
+  display: none;
+}
+
+@media screen and (min-width: 100em) {
+  .SubmissionForm__drag {
+    display: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .SubmissionForm {
+    bottom: 4em;
+  }
+
+  .SubmissionForm.hasImage {
+    height: 75vh;
+    max-width: 70%; 
+    margin-left: -35%;
+    margin-top: -37.5vh;
+  }
+
+  .SubmissionForm__button.close {
+    left: 1em; top: 1em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .laptop {
+    margin: 0 0 0 1em;
+    padding: 5px;
+    display: flex;
+    background: #80c683;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .laptop:hover {
+    background: #b1f9b3;
+  }
+
+  .button-text {
+    display: inline;
+    font-size: 1.4em;
+    font-family: 'Amaranth', sans-serif;
+    margin: 0 .2em 0 .5em;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .SubmissionForm {
+    position: static;
+  }
+
+  .SubmissionForm.hasImage {
+    position: fixed;
+    max-width: 600px;
+    margin-left: -300px;
+  }
+}

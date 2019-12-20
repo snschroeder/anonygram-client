@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayFeed component clicking upvote updates prop value as expected 1`] = `
+<section
+  className="display-feed"
+>
+  <ul
+    className="img-container"
+  >
+    <DisplayItem
+      id={20}
+      imgAddress="https://lh3.googleusercontent.com/p/AF1QipMJcAXkTwnOj_TWYbMRwygy8ktducIF2kgOqSdW=s1600-w500"
+      imgCaption={null}
+      incrementUpvotes={[Function]}
+      key="20"
+      upvotes={2}
+    />
+    <DisplayItem
+      id={21}
+      imgAddress="https://lh3.googleusercontent.com/p/AF1QipMJcAXkTwnOj_TWYbMRwygy8ktducIF2kgOqSdW=s1600-w500"
+      imgCaption="some optional text"
+      incrementUpvotes={[Function]}
+      key="21"
+      upvotes={0}
+    />
+  </ul>
+  <SubmissionForm
+    parent="DisplayFeed"
+    routeProps={
+      Object {
+        "setView": [Function],
+      }
+    }
+  />
+</section>
+`;
+
+exports[`DisplayFeed component renders elements by default 1`] = `
+<section
+  className="display-feed"
+>
+  <ul
+    className="img-container"
+  />
+  <SubmissionForm
+    parent="DisplayFeed"
+    routeProps={
+      Object {
+        "setView": [Function],
+      }
+    }
+  />
+</section>
+`;
+
+exports[`DisplayFeed component renders elements given ImageContext 1`] = `
+<section
+  className="display-feed"
+>
+  <ul
+    className="img-container"
+  >
+    <DisplayItem
+      id={20}
+      imgAddress="https://lh3.googleusercontent.com/p/AF1QipMJcAXkTwnOj_TWYbMRwygy8ktducIF2kgOqSdW=s1600-w500"
+      imgCaption={null}
+      incrementUpvotes={[Function]}
+      key="20"
+      upvotes={0}
+    />
+    <DisplayItem
+      id={21}
+      imgAddress="https://lh3.googleusercontent.com/p/AF1QipMJcAXkTwnOj_TWYbMRwygy8ktducIF2kgOqSdW=s1600-w500"
+      imgCaption="some optional text"
+      incrementUpvotes={[Function]}
+      key="21"
+      upvotes={0}
+    />
+  </ul>
+  <SubmissionForm
+    parent="DisplayFeed"
+    routeProps={
+      Object {
+        "setView": [Function],
+      }
+    }
+  />
+</section>
+`;

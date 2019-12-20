@@ -1,0 +1,107 @@
+.Information__container {
+  padding: 1.5em;
+  background: whitesmoke;
+}
+.info-header{
+  background: whitesmoke;
+}
+
+.Information__h1 {
+  font-size: 4em;
+  padding-bottom: 1em;
+}
+
+.Information__h2 {
+  font-size: 2.75em;
+}
+
+.Information__h3 {
+  font-size: 2.3em;
+  padding: 1em 0;
+}
+
+.Information__h4 {
+  font-size: 2em;
+  padding: 1em 0;
+}
+
+.Information__ul {
+  font-size: 1.5em;
+  width: 10em;
+  padding: 1em;
+  margin: 0 auto;
+  color: black;
+  list-style-type: circle!important;
+  
+}
+
+.Information__ul > li {
+  color: black;
+}
+
+.Information__demo {
+  border: 1px dotted black;
+  background: rgb(255, 255, 255);
+  font-size: 1.5em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  padding: 1em;
+  margin: 0 auto;
+  color: black;
+}
+
+.Information__demo > li{
+  text-align: left;
+}
+
+.Information__paragraph {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+.Information__ol > li {
+  font-size: 1.5em;
+  text-align: left;
+  list-style-type: circle;
+  padding-bottom: 1em;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+
+.link{
+  
+  color: black;
+}
+
+@media screen and (min-width: 50em) {
+  
+}
+
+@media screen and (min-width: 80em) {
+  .Information__container {
+    padding: 4em;
+  }
+  .Information__ul {
+    width: 20em;
+  }
+
+  .Information__demo {
+    font-size: 1.5em;
+    list-style-type: none;
+    width: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 0 auto;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 120em) {
+  
+}

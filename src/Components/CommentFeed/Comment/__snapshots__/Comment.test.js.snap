@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment component renders elements by default 1`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="Comment__div mainContainer"
+  >
+    <p
+      className="Comment__p"
+    >
+      <span
+        className="Comment__span username bold"
+      />
+    </p>
+  </div>
+  <div
+    className="Comment__div timestamp italic"
+  />
+</div>
+`;
+
+exports[`Comment component renders elements given props 1`] = `
+<div
+  className="Comment"
+>
+  <div
+    className="Comment__div mainContainer"
+  >
+    <p
+      className="Comment__p"
+    >
+      <span
+        className="Comment__span username bold"
+      >
+        test username
+      </span>
+      some comment text
+    </p>
+  </div>
+  <div
+    className="Comment__div timestamp italic"
+  >
+    in 5 hours
+  </div>
+</div>
+`;

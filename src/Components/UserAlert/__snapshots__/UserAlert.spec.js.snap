@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAlert component renders alert when set in context 1`] = `
+<Fragment>
+  <div
+    className="notifications-container"
+  >
+    <p
+      className="message"
+    >
+      Alert!
+    </p>
+  </div>
+</Fragment>
+`;

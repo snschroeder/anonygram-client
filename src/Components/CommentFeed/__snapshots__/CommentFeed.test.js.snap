@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommendFeed component renders elements by default 1`] = `
+<div
+  className="comment-container"
+>
+  <form
+    className="CommentFeed__form"
+    onSubmit={[Function]}
+  >
+    <label
+      htmlFor="newComment"
+    >
+      You must be logged in to post a comment. Log in 
+      <Link
+        to="/login"
+      >
+        here
+      </Link>
+      .
+    </label>
+    <input
+      className="CommentFeed__input"
+      disabled={true}
+      id="newComment"
+      placeholder=""
+      type="text"
+    />
+    <button
+      className="CommentFeed__button"
+      disabled={true}
+      type="submit"
+    >
+      Post
+    </button>
+  </form>
+</div>
+`;
+
+exports[`CommendFeed component renders elements given props 1`] = `
+<div
+  className="comment-container"
+>
+  <Comment
+    key="56532f9e-8022-4759-b134-b7269d510689"
+    text="comment text 1"
+    timestamp="a few seconds ago"
+    username="ObtuseRubberGoose"
+  />
+  <form
+    className="CommentFeed__form"
+    onSubmit={[Function]}
+  >
+    <label
+      htmlFor="newComment"
+    >
+      You must be logged in to post a comment. Log in 
+      <Link
+        to="/login"
+      >
+        here
+      </Link>
+      .
+    </label>
+    <input
+      className="CommentFeed__input"
+      disabled={true}
+      id="newComment"
+      placeholder=""
+      type="text"
+    />
+    <button
+      className="CommentFeed__button"
+      disabled={true}
+      type="submit"
+    >
+      Post
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,111 @@
+.display-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.display-img {
+    width: 100%;
+    min-width: 288px;
+    min-height: 288px;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.upvote-wrapper {
+    position: relative;
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+
+.upvote-count {
+    position: absolute;
+    bottom: 5px;
+    right: 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.upvote-button {
+    position: absolute;
+    z-index: auto;
+    bottom: 10px;
+    right: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 40px;
+    height: 50px;
+    background: grey;
+    opacity: .5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.upvote-button:hover,
+.upvote-button:focus {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.upvote-button-no-auth {
+    position: absolute;
+    z-index: auto;
+    bottom: 10px;
+    right: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 40px;
+    height: 30px;
+    background: grey;
+    opacity: .5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.delete-wrapper {
+    position: relative;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button {
+    position: absolute;
+    z-index: auto;
+    bottom: 10px;
+    right: 80px;
+    border: none;
+    border-radius: 3px;
+    width: 40px;
+    height: 30px;
+    background: grey;
+    opacity: .5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.delete-icon {
+    margin-top: 3px;
+}
+
+.upvote-button:hover,
+.upvote-button:focus {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 375px) {
+    .display-img {
+        min-width: 310px;
+        min-height: 310px;
+    }
+  }

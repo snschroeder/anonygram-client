@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayItem component renders elements by default 1`] = `
+<li
+  className="display-item"
+>
+  <Link
+    to="/p/undefined"
+  >
+    <img
+      alt="anonygram"
+      className="display-img"
+      onLoad={[Function]}
+    />
+  </Link>
+</li>
+`;
+
+exports[`DisplayItem component renders elements given props 1`] = `
+<li
+  className="display-item"
+>
+  <Link
+    to="/p/20"
+  >
+    <img
+      alt="anonygram"
+      className="display-img"
+      onLoad={[Function]}
+      src="https://lh3.googleusercontent.com/p/AF1QipMJcAXkTwnOj_TWYbMRwygy8ktducIF2kgOqSdW=s1600-w500"
+    />
+  </Link>
+</li>
+`;
